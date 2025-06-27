@@ -42,7 +42,7 @@ export class KazagumoPlugin extends Plugin {
         this.baseURL = "https://api.music.apple.com/v1/";
         this.fetchURL = `https://amp-api.music.apple.com/v1/catalog/${this.countryCode}`;
         this.credentials = {
-            Authorization: `Bearer ${appleOptions?.countryCode ?? ""}`,
+            Authorization: `Bearer ${appleOptions?.credentials ?? ""}`,
             origin: "https://music.apple.com",
         };
     }
