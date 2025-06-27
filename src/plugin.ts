@@ -3,7 +3,7 @@ import {
     Kazagumo,
     KazagumoTrack,
     KazagumoError,
-} from "kazagumo";
+} from "@pixel_nomad/kazagumo";
 import axios from "axios";
 
 type AppleOptions = {
