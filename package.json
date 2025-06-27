@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "description": "A plugin that allows you to play music on apple",
   "main": "dist/index.js",
+  "types": "dist/Index.d.ts",
+  "homepage": "https://github.com/Pixel-Nomad/kazagumo-apple",
+  "readme": "https://github.com/Pixel-Nomad/Kazagumo-apple#readme",
+  "bugs": {
+    "url": "https://github.com/Pixel-Nomad/Kazagumo-apple",
+    "email": "mr.tgamer247797704@gmail.com"
+  },
+  "engines": {
+    "node": ">=16.5.0"
+  },
   "scripts": {
     "build": "npx tsc --build --verbose"
   },
-  "author": "RainyXeon",
+  "author": "Pixel Nomad",
   "license": "ISC",
   "files": [
-    "dist"
+    "dist/**/**/*"
   ],
   "devDependencies": {
     "@types/node": "^18.11.9",
