@@ -1,6 +1,6 @@
 {
   "name": "@pixel_nomad/kazagumo-apple",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A plugin that allows you to play music on apple",
   "main": "dist/index.js",
   "types": "dist/Index.d.ts",
